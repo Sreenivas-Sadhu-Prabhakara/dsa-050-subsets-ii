@@ -12,6 +12,13 @@ Sort first so equal values are adjacent, then backtrack with a start index, reco
 
 **Complexity:** O(2ⁿ · n) worst case (output bound), O(n) depth.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
